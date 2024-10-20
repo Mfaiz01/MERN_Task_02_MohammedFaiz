@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MERN_Task_02_MohammedFaiz/static/css/main.b717d9c5.css",
+    "main.js": "/MERN_Task_02_MohammedFaiz/static/js/main.be269373.js",
+    "static/js/239.77c708b9.chunk.js": "/MERN_Task_02_MohammedFaiz/static/js/239.77c708b9.chunk.js",
+    "static/js/213.0e25604e.chunk.js": "/MERN_Task_02_MohammedFaiz/static/js/213.0e25604e.chunk.js",
+    "static/js/732.f3d85900.chunk.js": "/MERN_Task_02_MohammedFaiz/static/js/732.f3d85900.chunk.js",
+    "static/js/453.5409f835.chunk.js": "/MERN_Task_02_MohammedFaiz/static/js/453.5409f835.chunk.js",
+    "index.html": "/MERN_Task_02_MohammedFaiz/index.html",
+    "main.b717d9c5.css.map": "/MERN_Task_02_MohammedFaiz/static/css/main.b717d9c5.css.map",
+    "main.be269373.js.map": "/MERN_Task_02_MohammedFaiz/static/js/main.be269373.js.map",
+    "239.77c708b9.chunk.js.map": "/MERN_Task_02_MohammedFaiz/static/js/239.77c708b9.chunk.js.map",
+    "213.0e25604e.chunk.js.map": "/MERN_Task_02_MohammedFaiz/static/js/213.0e25604e.chunk.js.map",
+    "732.f3d85900.chunk.js.map": "/MERN_Task_02_MohammedFaiz/static/js/732.f3d85900.chunk.js.map",
+    "453.5409f835.chunk.js.map": "/MERN_Task_02_MohammedFaiz/static/js/453.5409f835.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b717d9c5.css",
+    "static/js/main.be269373.js"
+  ]
+}
