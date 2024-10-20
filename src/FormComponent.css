@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #fc466b, #3f5efb); /* Smooth the gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Form Wrapper to ensure scrolling on overflow */
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px; /* Increased max-width for better balance */
+    max-height: 90vh;
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-y: auto; /* Ensures form is scrollable if content exceeds height */
+}
+
+/* Heading Container */
+.heading-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #ff6b6b, #ffd56b);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+/* Portfolio Link Styling */
+.portfolio-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.portfolio-link a {
+    color: #ffd56b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
